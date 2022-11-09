@@ -1,0 +1,67 @@
+.first {
+    display: flex;
+
+    background-image: url(/src/assets/drop.jpg);
+    @apply bg-cover h-[100vh] bg-center bg-no-repeat
+}
+
+.box {
+    @apply bg-transparent w-[50vw]
+}
+
+.box2 {
+    @apply w-[50vw]
+}
+
+.square {
+    @apply w-[30rem] h-[30rem] mt-[15rem] ml-[7rem] outline-double outline-gray-500 outline-8 pl-2
+}
+
+.circle {
+    background-image: url(/src/assets/lee-campbell-DtDlVpy-vvQ-unsplash.jpg);
+    @apply w-[30rem] h-[30rem] bg-slate-700 rounded-full ml-[5rem] mt-[3rem] bg-cover bg-center bg-no-repeat
+}
+
+
+.circle2 {
+    background-image: url(/src/assets/ebuen-clemente-jr-BIfb_ZtytSM-unsplash.jpg);
+    @apply w-[30rem] h-[30rem] bg-slate-700 rounded-full ml-[25rem] top-[-14rem] relative bg-cover bg-center bg-no-repeat
+}
+
+.workspace {
+    @apply text-[4.5rem] text-gray-400
+}
+
+.workspace1 {
+    @apply text-lg text-gray-400
+}
+
+.second {
+
+    display: flex;
+    @apply h-[60vh]
+}
+
+.what {
+    @apply w-[50vw] bg-zinc-700 rounded-r-full
+}
+
+.water {
+    @apply w-[50vw] flex flex-col
+}
+
+.whath {
+    @apply text-[3rem] pl-[5rem] font-bold text-gray-800 mt-8
+}
+
+.lorem {
+    @apply pl-[5rem] pt-6 leading-loose text-lg
+}
+
+.building {
+    @apply h-[50%]
+}
+
+.remod {
+    @apply text-black h-[50%]
+}

@@ -1,0 +1,49 @@
+.contacts {
+    background-image: url(/src/assets/jeshoots-com-pUAM5hPaCRI-unsplash.jpg);
+    @apply h-[105vh] bg-cover bg-center bg-no-repeat bg-gray-700 flex
+}
+
+.cont1 {
+    @apply w-[50%] bg-slate-700 bg-opacity-70 flex flex-col pl-[5rem] pr-[5rem]
+}
+
+.cont2 {
+    @apply w-[50%] flex justify-center items-center
+}
+
+.num1 {
+    @apply mt-[3rem]
+}
+
+.fle {
+    @apply flex gap-6 pb-7 text-[2rem] font-bold
+}
+
+.par {
+    @apply text-lg font-medium leading-loose font-mono
+}
+
+.num5 {
+    @apply mt-11 flex gap-[3rem]
+}
+
+
+.sub {
+    @apply bg-purple-500 h-[20rem] w-[40rem] outline-double bg-opacity-50 flex-col flex items-center
+}
+
+.col {
+    @apply text-[2rem] font-bold mb-[3rem] mt-[2rem]
+}
+
+.subb {
+    @apply flex flex-col
+}
+
+.part {
+    @apply mb-5
+}
+
+.bul {
+    @apply p-2 bg-red-400 mt-3 h-[2.5rem] flex justify-center items-center
+}

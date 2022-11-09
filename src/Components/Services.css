@@ -1,0 +1,40 @@
+.Services {
+    background-image: url(/src/assets/kaleb-tapp-J59wWPn09BE-unsplash.jpg);
+    @apply h-[105vh] bg-cover bg-center bg-no-repeat bg-gray-700
+}
+
+.accept {
+    @apply flex
+}
+
+.accept1 {
+    @apply w-[50%] h-[92.35vh] flex flex-col items-center pt-[5rem]
+}
+
+.accept2 {
+    @apply w-[50%] h-[92.35vh] flex flex-col items-center pt-[5rem] gap-[4rem]
+}
+
+.bit {
+    @apply flex flex-col h-[13rem] w-[60%] items-center p-[0.5rem] bg-slate-900 rounded-md
+}
+
+.finder {
+    @apply text-white font-medium text-4xl mb-[1.5rem]
+}
+
+.para {
+    @apply leading-loose text-lg text-sky-300 mt-0
+}
+
+.learn {
+    @apply mt-[1rem] text-gray-700 p-[8px] rounded-sm bg-opacity-5
+}
+
+.learn:hover {
+    @apply bg-slate-500
+}
+
+.bit:hover {
+    @apply border-slate-800 border-4 shadow-black shadow-lg rounded-md
+}

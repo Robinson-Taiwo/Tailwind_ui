@@ -1,0 +1,28 @@
+.Nav {
+    @apply flex capitalize justify-around text-white justify-center items-center h-12 bg-black;
+
+}
+
+.links {
+    @apply flex flex-row gap-20
+}
+
+.link:hover {
+    @apply text-gray-900 bg-gray-100 rounded-full max-w-full
+}
+
+.logo {
+    @apply text-gray-700 text-4xl
+}
+
+.buttons {
+    @apply bg-orange-600 p-3
+}
+
+.buttons:hover {
+    @apply bg-amber-900 text-black
+}
+
+.icon {
+    @apply flex gap-[10px]
+}

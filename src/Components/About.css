@@ -1,0 +1,16 @@
+.did {
+    background-image: url(/src/assets/boitumelo-phetla-zY3mjsIvg0U-unsplash.jpg);
+    @apply flex flex-col h-[100vh] bg-cover bg-center bg-no-repeat
+}
+
+.dida {
+    @apply flex flex-col justify-center items-center h-[50%]
+}
+
+.didb {
+    @apply flex flex-row justify-center items-center h-[50%] gap-11 font-medium text-[3rem] text-white
+}
+
+.lit {
+    @apply flex-col flex justify-center items-center
+}
