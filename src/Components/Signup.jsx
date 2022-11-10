@@ -20,10 +20,9 @@ const Signup = () => {
 
             <section className="pork">
 
-
                 <form className='action'>
-                    <div className="fo">    Sign-up Form
-                    </div>
+                    <div className="fo">Sign up Form</div>
+
                     <div className='up' >FIRST-NAME <input className='mil' type="text" label="name" />
                     </div>
                     <div className="up">LAST-NAME <input className='mil' type="text" label="name" />
