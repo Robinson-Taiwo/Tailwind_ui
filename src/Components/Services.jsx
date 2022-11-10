@@ -5,7 +5,6 @@ import "./Services.css"
 const Services = () => {
 
 
-    fetch("https://staging-api.worksimply.ca/v1")
 
 
     return (

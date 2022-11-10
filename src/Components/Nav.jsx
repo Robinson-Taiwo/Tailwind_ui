@@ -5,7 +5,9 @@ import Contacts from './Contacts'
 import Home from './Home'
 import "./Nav.css"
 import Services from './Services'
+import Signup from './Signup'
 import search from "/search.svg"
+
 
 const Nav = () => {
 
@@ -26,7 +28,7 @@ const Nav = () => {
 
             <div className="icon">
                 <img src={search} alt="" />
-                <button className='buttons' >Sign up</button>
+                <button className='buttons' ><Link to="/Signup" element={<Signup />} >Sign up</Link></button>
             </div>
 
         </section>

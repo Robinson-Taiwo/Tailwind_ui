@@ -60,7 +60,7 @@ const Contacts = () => {
                             <h3 className='col'>Subscribe to our newsletter</h3>
                             <p className='part'>Get updated about our latest information</p>
 
-                            <input type="text" placeholder='input email here' />
+                            <input type="text" required placeholder='input email here' />
                             <button className='bul'>submit</button>
 
                         </form>

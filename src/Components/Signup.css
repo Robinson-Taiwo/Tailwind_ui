@@ -1,0 +1,42 @@
+.meat {
+    @apply h-[100vh] bg-cyan-500 w-[100vw] flex
+}
+
+.beef {
+    @apply bg-gray-600 w-[35%] p-[1rem] flex justify-center items-center flex-col bg-center bg-cover bg-no-repeat text-white
+}
+
+.space {
+    @apply text-9xl font-serif
+}
+
+.pro {
+    @apply flex justify-center items-center text-lg font-medium
+}
+
+
+.pork {
+    background-image: url(/src/assets/workspace\ back.jpg);
+
+    @apply w-[65%] p-[1rem] flex justify-center items-center flex-col bg-center bg-cover bg-no-repeat text-white
+}
+
+.action {
+    @apply flex flex-col w-[540px] h-[650px] p-[2rem] bg-gray-600 justify-center rounded-lg
+}
+
+.mil {
+    @apply h-[3rem] rounded-lg text-black
+}
+
+.sum {
+    @apply bg-red-500 p-[1rem]
+}
+
+.up {
+    @apply flex flex-col mb-6
+}
+
+.fo {
+    @apply flex justify-center items-center text-4xl text-black
+}

@@ -5,6 +5,7 @@ import Contacts from './Contacts'
 import Home from './Home'
 import Landing from './Landing'
 import Services from './Services'
+import Signup from './Signup'
 
 export const AppRoute = () => {
     return (
@@ -15,6 +16,8 @@ export const AppRoute = () => {
             <Route path='/About' element={<About />} />
             <Route path='/Services' element={<Services />} />
             <Route path='/Contacts' element={<Contacts />} />
+            <Route path='/Signup' element={<Signup />} />
+
         </Routes>
 
     )

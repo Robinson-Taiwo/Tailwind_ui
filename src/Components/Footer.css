@@ -4,7 +4,7 @@
 
 #footer_logo {
 
-    @apply text-gray-700 flex items-center cursor-pointer no-underline text-[2rem]
+    @apply flex items-center cursor-pointer no-underline text-[2rem]
 }
 
 .footer_links {
