@@ -30,7 +30,11 @@
 }
 
 .sum {
-    @apply bg-red-500 p-[1rem]
+    @apply bg-red-500 p-[1rem] 
+}
+
+.sum:hover{
+    @apply bg-red-700
 }
 
 .up {

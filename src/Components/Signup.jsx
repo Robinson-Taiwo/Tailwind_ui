@@ -12,7 +12,7 @@ const Signup = () => {
                     <h1 className='space'>
                         SIGN-UP
                     </h1>
-                    <p className='pro' >create your account to join get our premium services</p>
+                    <p className='pro' >create your account to get our premium services</p>
 
                 </div>
 
@@ -23,18 +23,18 @@ const Signup = () => {
                 <form className='action'>
                     <div className="fo">Sign up Form</div>
 
-                    <div className='up' >FIRST-NAME <input className='mil' type="text" label="name" />
+                    <div className='up' >FIRST-NAME <input className='mil' required type="text" label="name" />
                     </div>
-                    <div className="up">LAST-NAME <input className='mil' type="text" label="name" />
+                    <div className="up">LAST-NAME <input className='mil' required type="text" label="name" />
                     </div>
-                    <div className="up">USERNAME <input className='mil' type="text" label="name" />
+                    <div className="up">USERNAME <input className='mil' required type="text" label="name" />
                     </div>
-                    <div className="up">PASSWORD <input className='mil' type="text" label="name" />
+                    <div className="up">PASSWORD <input className='mil' required type="password" label="name" />
                     </div>
-                    <div className="up">CONFIRM PASSWORD <input className='mil' type="text" label="name" />
+                    <div className="up">CONFIRM PASSWORD <input className='mil' required type="password" label="name" />
                     </div>
 
-                    <span><input type="checkbox" label="name" /> by checking the box, you agree to all our terms, policies and
+                    <span><input type="checkbox" required label="name" /> by checking the box, you agree to all our terms, policies and
                         conditions
                     </span>
                     <button className='sum' >submit</button>
